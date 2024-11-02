@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 3000px;
+}
+
+.body {
+  display: flex;
+}
+
+.content {
+  width: 799px;
+  background-color: burlywood;
+  padding: 0px 32px;
+  flex: 1;
+}

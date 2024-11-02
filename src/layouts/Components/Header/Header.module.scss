@@ -1,0 +1,132 @@
+.wrapper {
+  height: 56px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+}
+
+.logo-search,
+.function-btn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+// .logo-search {
+//   width: 320px;
+// }
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+  margin-left: 16px;
+}
+
+.tabs ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+// search
+.search {
+  width: 240px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: rgb(240, 242, 245);
+  color: rgb(96, 103, 112);
+
+  input {
+    flex: 1;
+    height: 100%;
+    background-color: transparent;
+    padding: 7px 9px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+.search-btn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 28px;
+  padding-left: 12px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: rgb(96, 103, 112);
+}
+
+//tabs
+.tabs {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  line-height: 16.08px;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.tab-list {
+  padding: 0px 110px;
+  pointer-events: all;
+}
+
+.tab-item {
+  + .tab-item {
+    margin-left: 9px;
+  }
+}
+
+.tab {
+  height: 56px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-item {
+  width: 111px;
+  border-radius: 5px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+.tab-footer {
+  position: absolute;
+  height: 3px;
+  width: 108px;
+  bottom: 0;
+  right: 2px;
+  left: 2px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  text-align: left;
+  background-color: var(--primary);
+}
+
+.tab-link {
+  height: 100px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
