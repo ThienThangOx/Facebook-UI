@@ -1,3 +1,10 @@
+.header {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  background-color: var(--white);
+}
+
 .wrapper {
   height: 56px;
   width: 100%;
@@ -9,15 +16,11 @@
 }
 
 .logo-search,
-.function-btn {
+.action-btn-list {
   height: 100%;
   display: flex;
   align-items: center;
 }
-
-// .logo-search {
-//   width: 320px;
-// }
 
 .logo {
   height: 40px;
@@ -72,7 +75,6 @@
   width: 100%;
   position: absolute;
   display: flex;
-  // align-items: center;
   justify-content: center;
   line-height: 16.08px;
   font-size: 12px;
@@ -108,6 +110,7 @@
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
   }
 }
 
@@ -129,4 +132,63 @@
   display: block;
   display: flex;
   align-items: center;
+}
+
+// action btn
+.action-btn-list {
+  width: 184px;
+  height: 100%;
+  margin-left: 4px;
+  margin-right: 16px;
+  pointer-events: all;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: rgb(28, 30, 33);
+  background-color: rgb(228, 230, 235);
+
+  &:hover {
+    background-color: rgb(228, 230, 235);
+    cursor: pointer;
+  }
+
+  + .action-btn {
+    margin-left: 8px;
+  }
+}
+
+.avatar-btn {
+  margin-left: 8px;
+  position: relative;
+  color: rgb(28, 30, 33);
+}
+
+.avatar {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-arrow {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+  border: 3px solid var(--white);
+  background-color: rgb(228, 230, 235);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -6,12 +6,16 @@
 }
 
 .body {
+  margin-top: 56px;
   display: flex;
 }
 
 .content {
   width: 799px;
-  background-color: burlywood;
+  background-color: rgb(233, 235, 238);
   padding: 0px 32px;
   flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
