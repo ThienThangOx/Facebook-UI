@@ -2,6 +2,7 @@
   height: 56px;
   width: 100%;
   position: fixed;
+  z-index: 2;
   background-color: var(--white);
 }
 
@@ -109,8 +110,9 @@
   justify-content: center;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    // background-color: rgba(0, 0, 0, 0.05);
     cursor: pointer;
+    background-color: rgb(242, 242, 242);
   }
 }
 
@@ -154,8 +156,9 @@
   background-color: rgb(228, 230, 235);
 
   &:hover {
-    background-color: rgb(228, 230, 235);
     cursor: pointer;
+    background-color: rgb(216, 218, 223);
+    // background-color: rgb(228, 230, 235);
   }
 
   + .action-btn {

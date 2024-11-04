@@ -259,8 +259,55 @@ export const DownArrowIcon = (fill, classes) => {
   );
 };
 
-// export const AvatarIcon = (fill, classes) => {
-//   return (
+export const LeftArrowIcon = (classes) => {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="24"
+      height="24"
+      fill="currentColor"
+      className={classes}
+    >
+      <path d="M14.791 5.207 8 12l6.793 6.793a1 1 0 1 1-1.415 1.414l-7.5-7.5a1 1 0 0 1 0-1.414l7.5-7.5a1 1 0 1 1 1.415 1.414z"></path>
+    </svg>
+  );
+};
 
-//   );
-// };
+export const RightArrowIcon = (classes) => {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width="24"
+      height="24"
+      fill="currentColor"
+      className={classes}
+    >
+      <path d="M9.209 5.207 16 12l-6.791 6.793a1 1 0 1 0 1.415 1.414l7.5-7.5a1 1 0 0 0 0-1.414l-7.5-7.5a1 1 0 1 0-1.415 1.414z"></path>
+    </svg>
+  );
+};
+
+export const StoryPlusIcon = (classes) => {
+  return (
+    <svg
+      viewBox="0 0 20 20"
+      width="20"
+      height="20"
+      fill="currentColor"
+      className={classes}
+    >
+      <g fillRule="evenodd" transform="translate(-446 -350)">
+        <g fillRule="nonzero">
+          <path
+            d="M95 201.5h13a1 1 0 1 0 0-2H95a1 1 0 1 0 0 2z"
+            transform="translate(354.5 159.5)"
+          ></path>
+          <path
+            d="M102.5 207v-13a1 1 0 1 0-2 0v13a1 1 0 1 0 2 0z"
+            transform="translate(354.5 159.5)"
+          ></path>
+        </g>
+      </g>
+    </svg>
+  );
+};
