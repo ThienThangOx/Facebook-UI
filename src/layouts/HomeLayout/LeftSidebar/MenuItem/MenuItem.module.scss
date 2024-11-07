@@ -1,0 +1,161 @@
+.wrapper {
+  width: 360px;
+  height: 52px;
+  padding: 0 8px;
+  transition: transform 0.3s ease;
+}
+
+
+.item-container {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 52px;
+  padding: 0 8px;
+  text-align: left;
+  border-radius: 8px;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #e4e6e8;
+  }
+}
+
+.item-icon {
+  width: 36px;
+  height: 36px;
+  margin: 8px 12px;
+  margin-left: 0px;
+}
+
+.item-title {
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.group {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: rgb(228, 230, 235);
+}
+
+.friend {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -333px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.memory {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -481px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.saved {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -185px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.group {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -37px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.video {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -555px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.marketplace {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -444px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.fundraisers {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -370px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.game {
+  background: url("../../../../assets/Image//LeftSideBarIcons.png") no-repeat 0 -74px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.messenger {
+  background: url("../../../../assets/Image/LeftSidebarIcons_messenger.png")
+    no-repeat 0 -83px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.reel {
+  background: url("../../../../assets/Image/LeftSidebaricons_reel.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+.event {
+  background: url("../../../../assets/Image/LeftSideBarIcons.png") no-repeat 0 -296px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.page {
+  background: url("../../../../assets/Image/LeftSideBarIcons.png") no-repeat 0 -148px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.dob {
+  background: url("../../../../assets/Image/LeftSideBarIcons_Dob.png") no-repeat
+    0 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.page {
+  background: url("../../../../assets/Image/LeftSideBarIcons.png") no-repeat 0 -148;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.ads-campaign {
+  background: url("../../../../assets/Image/LeftSidebarIcon_adsCampaign.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.climate {
+  background: url("../../../../assets/Image/LeftSidebarIcon_climate.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.game-video {
+  background: url("../../../../assets/Image/LeftSidebarIcon_videoGame.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}

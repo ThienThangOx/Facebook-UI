@@ -59,7 +59,7 @@ function Stories() {
       <div className={cx("container")}>
         <StoryCreation />
         {stories.map((story, index) => (
-          <StoryItem story={story} index={index} />
+          <StoryItem story={story} key={index} />
         ))}
       </div>
       <div className={cx("arrow-btn", "right-btn")}>
