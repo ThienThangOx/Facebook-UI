@@ -1,4 +1,48 @@
 .wrapper {
   width: 360px;
-  background-color: aqua;
+  height: 911px;
+  margin-top: 16px;
+  transition: transform 0.3s ease;
+}
+
+.shortcut-container:hover  ~ .edit-btn {
+  display: block;
+}
+
+.shortcut-place {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-items: center;
+  width: 344px;
+  height: 37px;
+  margin-top: 8px;
+  margin-bottom: 9px;
+  margin-left: 16px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  border-top: 1px solid rgb(208, 211, 215);
+}
+
+.shortcut-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(101, 104, 108);
+}
+
+.edit-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 90px;
+  height: 33px;
+  color: rgb(0, 100, 209);
+  border-radius: 4px;
+  // display: none; 
+
+  &:hover {
+    cursor: pointer;
+    background-color: #e6e8ea;
+  }
 }
